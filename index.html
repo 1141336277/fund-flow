@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>资金流向 - 陈浩南</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:#0f1117;color:#e0e0e0;max-width:600px;margin:0 auto;min-height:100vh}
+.header{background:linear-gradient(135deg,#1a1a3e,#0f1117);padding:20px 16px 16px;text-align:center;border-bottom:1px solid #1e2230;position:sticky;top:0;z-index:10}
+.header h1{font-size:19px;font-weight:800;margin-bottom:4px}
+.header .sub{font-size:11px;color:#666}
+.header .sub .live-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#ff9500;margin-right:5px;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.3}}
+
+/* 概览卡片 */
+.overview{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;padding:12px 14px}
+.ov-card{background:#161a24;border-radius:10px;padding:12px 10px;text-align:center;border:1px solid #1e2230}
+.ov-card .ov-val{font-size:20px;font-weight:800}
+.ov-card .ov-label{font-size:10px;color:#666;margin-top:3px}
+.ov-card .ov-sub{font-size:10px;color:#555;margin-top:2px}
+
+/* 摘要文字 */
+.summary-box{background:#161a24;border-radius:12px;padding:14px 16px;margin:0 14px 12px;border:1px solid #1e2230;white-space:pre-line;font-size:13px;line-height:1.8}
+
+/* 标题 */
+.sec-title{font-size:14px;font-weight:700;padding:14px 16px 8px;display:flex;align-items:center;gap:6px}
+.sec-title .badge{font-size:10px;padding:2px 8px;border-radius:10px;font-weight:400}
+.badge-in{background:rgba(255,59,48,0.15);color:#ff3b30}.badge-out{background:rgba(52,199,89,0.15);color:#34c759}
+
+/* 板块资金流表格 */
+.flow-table{margin:0 14px 16px;background:#161a24;border-radius:12px;overflow:hidden;border:1px solid #1e2230}
+.flow-row{display:grid;grid-template-columns:28px 1fr 80px 90px 90px;gap:4px;padding:10px 12px;border-bottom:1px solid #1a1d28;align-items:center;font-size:13px}
+.flow-row:last-child{border-bottom:none}
+.flow-row.header-row{font-size:10px;color:#666;padding:8px 12px;background:#11131a;font-weight:600}
+.flow-rank{text-align:center;font-weight:700;font-size:12px;color:#888}
+.flow-rank.r1{color:#ff3b30}.flow-rank.r2{color:#ff6b4a}.flow-rank.r3{color:#ff9500}
+.flow-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:500}
+.flow-change{text-align:right;font-weight:600;font-size:12px}
+.flow-money{text-align:right;font-weight:600;font-size:13px}
+.flow-ratio{text-align:right;font-size:11px;color:#888}
+
+/* 两列 */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:0 14px 16px}
+.two-col .flow-table{margin:0}
+.two-col .flow-row{grid-template-columns:22px 1fr 70px 65px 55px;font-size:11px;padding:8px 8px}
+.two-col .sec-title{margin:0;padding:0 0 8px}
+
+.up{color:#ff3b30}.down{color:#34c759}
+.footer{text-align:center;padding:20px;color:#555;font-size:10px;line-height:1.8}
+.loading{text-align:center;padding:60px 20px;color:#666}
+.spinner{display:inline-block;width:28px;height:28px;border:3px solid #1e2230;border-top-color:#ff9500;border-radius:50%;animation:spin 0.8s linear infinite;margin-bottom:12px}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+@media(max-width:400px){
+  .flow-row{grid-template-columns:22px 1fr 60px 70px 70px;font-size:12px;gap:2px;padding:8px 8px}
+  .overview{gap:4px;padding:10px}
+  .ov-card{padding:10px 6px}
+  .ov-card .ov-val{font-size:17px}
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>💰 板块资金流向</h1>
+  <div class="sub"><span class="live-dot"></span><span id="update-info">加载中...</span> · 陈浩南制作</div>
+</div>
+<div id="app"><div class="loading"><div class="spinner"></div><br>正在加载资金流向...</div></div>
+<div class="footer">
+  数据来源：东方财富 | 盘后自动更新，开盘前即可查看<br>
+  陈浩南 © 2026 · 投资有风险，数据仅供参考
+</div>
+
+<script>
+var data = null;
+async function load(){
+  try{
+    var r=await fetch('fund.json');
+    if(!r.ok) throw new Error('加载失败');
+    data=await r.json();
+    render();
+  }catch(e){
+    document.getElementById('app').innerHTML='<div class="loading">⚠️ 加载失败<br><button onclick="load()" style="margin-top:12px;padding:8px 20px;border-radius:16px;background:#ff9500;color:#fff;border:none;cursor:pointer">点击重试</button></div>';
+  }
+}
+
+function render(){
+  var d=new Date(data.updated);
+  document.getElementById('update-info').textContent='更新于 '+(d.getMonth()+1)+'/'+d.getDate()+' '+String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0');
+
+  var ov=data.overview||{};
+  var mf=data.marketFlow||{};
+  var nb=data.northBound||{};
+
+  var html='';
+
+  // 概览卡片
+  html+='<div class="overview">';
+  var netColor = ov.netFlow>=0?'up':'down';
+  html+='<div class="ov-card"><div class="ov-val '+netColor+'">'+fmtYi(ov.netFlow)+'亿</div><div class="ov-label">板块主力净流入</div><div class="ov-sub">'+ov.inflowSectorCount+'/'+ov.sectorCount+' 板块流入</div></div>';
+
+  var nbColor = (nb&&nb.netIn>=0)?'up':'down';
+  html+='<div class="ov-card"><div class="ov-val '+nbColor+'">'+(nb?fmtYi(nb.netIn):'-')+'亿</div><div class="ov-label">北向资金</div><div class="ov-sub">沪股通+深股通</div></div>';
+
+  var mfColor = (mf&&mf.mainNetIn>=0)?'up':'down';
+  html+='<div class="ov-card"><div class="ov-val '+mfColor+'">'+(mf?fmtYi(mf.mainNetIn):'-')+'亿</div><div class="ov-label">大盘主力资金</div><div class="ov-sub">超大单+大单</div></div>';
+  html+='</div>';
+
+  // 摘要
+  if(data.summary){
+    html+='<div class="summary-box">'+esc(data.summary)+'</div>';
+  }
+
+  // 行业板块资金流向表
+  html+='<div class="sec-title">🏭 行业板块资金流向 <span class="badge badge-in">主力净流入排行</span></div>';
+  html+='<div class="flow-table">';
+  html+='<div class="flow-row header-row"><span></span><span>板块名称</span><span style="text-align:right">涨跌幅</span><span style="text-align:right">主力净流入</span><span style="text-align:right">占比</span></div>';
+  (data.sectors||[]).slice(0,20).forEach(function(s,i){
+    var rc=i<3?' r'+(i+1):'';
+    var mc=s.mainNetIn>=0?'up':'down';
+    html+='<div class="flow-row">';
+    html+='<span class="flow-rank'+rc+'">'+(i+1)+'</span>';
+    html+='<span class="flow-name">'+esc(s.name)+'</span>';
+    html+='<span class="flow-change '+(s.change>=0?'up':'down')+'">'+(s.change>=0?'+':'')+s.change.toFixed(2)+'%</span>';
+    html+='<span class="flow-money '+mc+'">'+(s.mainNetIn>=0?'+':'')+fmtYi(s.mainNetIn)+'亿</span>';
+    html+='<span class="flow-ratio">'+s.mainNetInRatio.toFixed(2)+'%</span>';
+    html+='</div>';
+  });
+  html+='</div>';
+
+  // 概念板块 + 个股资金流（两列）
+  html+='<div class="two-col"><div>';
+  html+='<div class="sec-title">💡 概念板块</div>';
+  html+='<div class="flow-table">';
+  (data.concepts||[]).slice(0,8).forEach(function(s,i){
+    var mc=s.mainNetIn>=0?'up':'down';
+    html+='<div class="flow-row">';
+    html+='<span class="flow-rank">'+(i+1)+'</span>';
+    html+='<span class="flow-name">'+esc(s.name)+'</span>';
+    html+='<span class="flow-change '+(s.change>=0?'up':'down')+'">'+(s.change>=0?'+':'')+(s.change||0).toFixed(1)+'%</span>';
+    html+='<span class="flow-money '+mc+'">'+fmtYi(s.mainNetIn)+'亿</span>';
+    html+='<span class="flow-ratio">'+(s.mainNetInRatio||0).toFixed(1)+'%</span>';
+    html+='</div>';
+  });
+  html+='</div></div><div>';
+
+  // 个股资金流入Top
+  html+='<div class="sec-title">📈 个股流入Top</div>';
+  html+='<div class="flow-table">';
+  (data.stockInTop||[]).slice(0,8).forEach(function(s,i){
+    html+='<div class="flow-row">';
+    html+='<span class="flow-rank">'+(i+1)+'</span>';
+    html+='<span class="flow-name">'+esc(s.name)+'</span>';
+    html+='<span class="flow-change '+(s.change>=0?'up':'down')+'">'+(s.change>=0?'+':'')+(s.change||0).toFixed(2)+'%</span>';
+    html+='<span class="flow-money up">+'+fmtYi(s.mainNetIn)+'亿</span>';
+    html+='<span class="flow-ratio">'+(s.mainNetInRatio||0).toFixed(1)+'%</span>';
+    html+='</div>';
+  });
+  html+='</div></div></div>';
+
+  document.getElementById('app').innerHTML=html;
+}
+
+function fmtYi(v){return v?(v/100000000).toFixed(2):'0.00'}
+function fmtPrice(p){if(!p)return'-';return p>=100?p.toFixed(1):p>=10?p.toFixed(2):p.toFixed(2)}
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+
+load();
+</script>
+</body>
+</html>
