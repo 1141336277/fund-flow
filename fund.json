@@ -1,0 +1,17 @@
+{
+  "updated": "2026-05-12T00:36:25.589Z",
+  "overview": {
+    "totalSectorIn": 0,
+    "totalSectorOut": 0,
+    "netFlow": 0,
+    "sectorCount": 0,
+    "inflowSectorCount": 0
+  },
+  "marketFlow": null,
+  "northBound": null,
+  "sectors": [],
+  "concepts": [],
+  "stockInTop": [],
+  "stockOutTop": [],
+  "summary": ""
+}
