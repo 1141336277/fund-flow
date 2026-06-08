@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-08T14:39:33.230Z",
+  "updated": "2026-06-08T18:08:07.493Z",
   "overview": {
     "totalSectorIn": 11387725253,
     "totalSectorOut": 0,
@@ -625,87 +625,6 @@
       "mainNetInRatio": -5.53
     }
   ],
-  "stockOutTop": [
-    {
-      "code": "600522",
-      "name": "中天科技",
-      "price": 49.53,
-      "change": 7.51,
-      "mainNetIn": 1999532800,
-      "mainNetInRatio": 7.93
-    },
-    {
-      "code": "002361",
-      "name": "神剑股份",
-      "price": 18.49,
-      "change": 9.99,
-      "mainNetIn": 718316272,
-      "mainNetInRatio": 14.89
-    },
-    {
-      "code": "601398",
-      "name": "工商银行",
-      "price": 7.5,
-      "change": 2.18,
-      "mainNetIn": 635985360,
-      "mainNetInRatio": 14.68
-    },
-    {
-      "code": "000620",
-      "name": "盈新发展",
-      "price": 3.17,
-      "change": 10.07,
-      "mainNetIn": 611709664,
-      "mainNetInRatio": 37.56
-    },
-    {
-      "code": "603929",
-      "name": "亚翔集成",
-      "price": 187.1,
-      "change": 10,
-      "mainNetIn": 575036848,
-      "mainNetInRatio": 30.78
-    },
-    {
-      "code": "002463",
-      "name": "沪电股份",
-      "price": 137,
-      "change": 2.84,
-      "mainNetIn": 558686208,
-      "mainNetInRatio": 3.59
-    },
-    {
-      "code": "601288",
-      "name": "农业银行",
-      "price": 6.57,
-      "change": 3.3,
-      "mainNetIn": 535963920,
-      "mainNetInRatio": 15.18
-    },
-    {
-      "code": "002747",
-      "name": "埃斯顿",
-      "price": 34.12,
-      "change": 9.99,
-      "mainNetIn": 489354656,
-      "mainNetInRatio": 13.3
-    },
-    {
-      "code": "002046",
-      "name": "国机精工",
-      "price": 60.37,
-      "change": 10,
-      "mainNetIn": 419245024,
-      "mainNetInRatio": 16.57
-    },
-    {
-      "code": "601857",
-      "name": "中国石油",
-      "price": 10.95,
-      "change": 3.2,
-      "mainNetIn": 358833072,
-      "mainNetInRatio": 12.65
-    }
-  ],
+  "stockOutTop": [],
   "summary": "【资金涌入最多板块】\n1. 银行：主力净流入 16.01 亿\n2. 银行Ⅱ：主力净流入 16.01 亿\n3. 国有大型银行Ⅲ：主力净流入 13.98 亿\n4. 金属制品：主力净流入 6.85 亿\n5. 合成树脂：主力净流入 5.59 亿"
 }
