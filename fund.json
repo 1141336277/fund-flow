@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23T09:22:13.767Z",
+  "updated": "2026-07-23T11:22:58.680Z",
   "overview": {
     "totalSectorIn": 62085658047,
     "totalSectorOut": 0,
@@ -401,8 +401,311 @@
       "mediumNetIn": -111258800
     }
   ],
-  "concepts": [],
-  "stockInTop": [],
-  "stockOutTop": [],
+  "concepts": [
+    {
+      "code": "BK1648",
+      "name": "电池技术",
+      "change": 2.87,
+      "mainNetIn": 10951472128,
+      "mainNetInRatio": 3.26
+    },
+    {
+      "code": "BK0574",
+      "name": "锂电池概念",
+      "change": 3.11,
+      "mainNetIn": 10368647936,
+      "mainNetInRatio": 4.1
+    },
+    {
+      "code": "BK0989",
+      "name": "储能概念",
+      "change": 3.23,
+      "mainNetIn": 7809683968,
+      "mainNetInRatio": 3.29
+    },
+    {
+      "code": "BK0968",
+      "name": "固态电池",
+      "change": 2.85,
+      "mainNetIn": 6005023232,
+      "mainNetInRatio": 3.95
+    },
+    {
+      "code": "BK0695",
+      "name": "小金属概念",
+      "change": 3.06,
+      "mainNetIn": 5221014272,
+      "mainNetInRatio": 3.9
+    },
+    {
+      "code": "BK1710",
+      "name": "先进制造风格",
+      "change": 2.09,
+      "mainNetIn": 5027286528,
+      "mainNetInRatio": 2.94
+    },
+    {
+      "code": "BK1647",
+      "name": "电网概念",
+      "change": 4.46,
+      "mainNetIn": 4732658176,
+      "mainNetInRatio": 4.27
+    },
+    {
+      "code": "BK0581",
+      "name": "智能电网",
+      "change": 4.46,
+      "mainNetIn": 4339450624,
+      "mainNetInRatio": 5.16
+    },
+    {
+      "code": "BK1173",
+      "name": "锂矿概念",
+      "change": 4.87,
+      "mainNetIn": 4324964352,
+      "mainNetInRatio": 5.65
+    },
+    {
+      "code": "BK0918",
+      "name": "特高压",
+      "change": 5.17,
+      "mainNetIn": 4014744832,
+      "mainNetInRatio": 6.05
+    },
+    {
+      "code": "BK1639",
+      "name": "周期股",
+      "change": 1.65,
+      "mainNetIn": 3741128960,
+      "mainNetInRatio": 1.41
+    },
+    {
+      "code": "BK0900",
+      "name": "新能源车",
+      "change": 2.22,
+      "mainNetIn": 3670319360,
+      "mainNetInRatio": 1.1
+    },
+    {
+      "code": "BK0588",
+      "name": "光伏概念",
+      "change": 2.56,
+      "mainNetIn": 3138465280,
+      "mainNetInRatio": 1.47
+    },
+    {
+      "code": "BK0700",
+      "name": "充电桩",
+      "change": 3.2,
+      "mainNetIn": 2941063680,
+      "mainNetInRatio": 2.19
+    },
+    {
+      "code": "BK1197",
+      "name": "反内卷概念",
+      "change": 2.87,
+      "mainNetIn": 2929746688,
+      "mainNetInRatio": 4.29
+    },
+    {
+      "code": "BK0595",
+      "name": "风能",
+      "change": 2.95,
+      "mainNetIn": 2899798784,
+      "mainNetInRatio": 1.75
+    },
+    {
+      "code": "BK0519",
+      "name": "稀缺资源",
+      "change": 3.02,
+      "mainNetIn": 2884469248,
+      "mainNetInRatio": 2.91
+    },
+    {
+      "code": "BK0864",
+      "name": "氢能源",
+      "change": 2.92,
+      "mainNetIn": 2868235776,
+      "mainNetInRatio": 2.51
+    },
+    {
+      "code": "BK1052",
+      "name": "动力电池回收",
+      "change": 4.02,
+      "mainNetIn": 2837648896,
+      "mainNetInRatio": 6.68
+    },
+    {
+      "code": "BK0712",
+      "name": "一带一路",
+      "change": 2.71,
+      "mainNetIn": 2799454720,
+      "mainNetInRatio": 1.34
+    }
+  ],
+  "stockInTop": [
+    {
+      "code": "000938",
+      "name": "紫光股份",
+      "price": 42.45,
+      "change": -5.46,
+      "mainNetIn": -2861220608,
+      "mainNetInRatio": -12.63
+    },
+    {
+      "code": "300502",
+      "name": "新易盛",
+      "price": 497.3,
+      "change": -2.26,
+      "mainNetIn": -2402554368,
+      "mainNetInRatio": -10.71
+    },
+    {
+      "code": "002384",
+      "name": "东山精密",
+      "price": 206.65,
+      "change": -4.99,
+      "mainNetIn": -2326693888,
+      "mainNetInRatio": -8.98
+    },
+    {
+      "code": "000063",
+      "name": "中兴通讯",
+      "price": 35.92,
+      "change": -4.21,
+      "mainNetIn": -2244620384,
+      "mainNetInRatio": -21.7
+    },
+    {
+      "code": "600584",
+      "name": "长电科技",
+      "price": 80.81,
+      "change": -5.79,
+      "mainNetIn": -2076744848,
+      "mainNetInRatio": -14.88
+    },
+    {
+      "code": "002156",
+      "name": "通富微电",
+      "price": 69.82,
+      "change": -6.78,
+      "mainNetIn": -2040802144,
+      "mainNetInRatio": -13.62
+    },
+    {
+      "code": "603986",
+      "name": "兆易创新",
+      "price": 451.96,
+      "change": -3.84,
+      "mainNetIn": -1960063232,
+      "mainNetInRatio": -9.05
+    },
+    {
+      "code": "688347",
+      "name": "华虹宏力",
+      "price": 341,
+      "change": -12.58,
+      "mainNetIn": -1241509664,
+      "mainNetInRatio": -9.29
+    },
+    {
+      "code": "688981",
+      "name": "中芯国际",
+      "price": 145.09,
+      "change": -6.75,
+      "mainNetIn": -1063619744,
+      "mainNetInRatio": -9.59
+    },
+    {
+      "code": "603019",
+      "name": "中科曙光",
+      "price": 97.82,
+      "change": -4.24,
+      "mainNetIn": -984983184,
+      "mainNetInRatio": -11.16
+    }
+  ],
+  "stockOutTop": [
+    {
+      "code": "002475",
+      "name": "立讯精密",
+      "price": 61.19,
+      "change": 3.43,
+      "mainNetIn": 989148000,
+      "mainNetInRatio": 13.46
+    },
+    {
+      "code": "601138",
+      "name": "工业富联",
+      "price": 62.88,
+      "change": 3.57,
+      "mainNetIn": 795701776,
+      "mainNetInRatio": 7.9
+    },
+    {
+      "code": "300274",
+      "name": "阳光电源",
+      "price": 117.79,
+      "change": 7.13,
+      "mainNetIn": 724559232,
+      "mainNetInRatio": 6.76
+    },
+    {
+      "code": "300750",
+      "name": "宁德时代",
+      "price": 385.99,
+      "change": 3.69,
+      "mainNetIn": 703956912,
+      "mainNetInRatio": 5.17
+    },
+    {
+      "code": "300408",
+      "name": "三环集团",
+      "price": 105.55,
+      "change": 2.5,
+      "mainNetIn": 688146064,
+      "mainNetInRatio": 8.04
+    },
+    {
+      "code": "601179",
+      "name": "中国西电",
+      "price": 13.65,
+      "change": 9.99,
+      "mainNetIn": 641376808,
+      "mainNetInRatio": 26.59
+    },
+    {
+      "code": "603993",
+      "name": "洛阳钼业",
+      "price": 20.03,
+      "change": 2.14,
+      "mainNetIn": 617347392,
+      "mainNetInRatio": 8.54
+    },
+    {
+      "code": "300390",
+      "name": "天华新能",
+      "price": 60.38,
+      "change": 8.05,
+      "mainNetIn": 558710912,
+      "mainNetInRatio": 13.15
+    },
+    {
+      "code": "000636",
+      "name": "风华高科",
+      "price": 43.21,
+      "change": 4.62,
+      "mainNetIn": 543095456,
+      "mainNetInRatio": 8.69
+    },
+    {
+      "code": "600089",
+      "name": "特变电工",
+      "price": 21.53,
+      "change": 8.85,
+      "mainNetIn": 538618592,
+      "mainNetInRatio": 8.95
+    }
+  ],
   "summary": "【资金涌入最多板块】\n1. 电力设备：主力净流入 111.67 亿\n2. 有色金属：主力净流入 65.68 亿\n3. 电网设备：主力净流入 53.93 亿\n4. 电池：主力净流入 37.29 亿\n5. 工业金属：主力净流入 29.19 亿"
 }
