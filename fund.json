@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T11:15:39.950Z",
+  "updated": "2026-07-27T02:03:02.375Z",
   "overview": {
     "totalSectorIn": 0,
     "totalSectorOut": 0,
@@ -10,8 +10,311 @@
   "marketFlow": null,
   "northBound": null,
   "sectors": [],
-  "concepts": [],
-  "stockInTop": [],
-  "stockOutTop": [],
+  "concepts": [
+    {
+      "code": "BK1750",
+      "name": "2026中报扭亏",
+      "change": 2.21,
+      "mainNetIn": 45723560448,
+      "mainNetInRatio": 39.02
+    },
+    {
+      "code": "BK0923",
+      "name": "抖音概念(字节概念)",
+      "change": 2.06,
+      "mainNetIn": 45524100480,
+      "mainNetInRatio": 41.68
+    },
+    {
+      "code": "BK1177",
+      "name": "荣耀概念",
+      "change": 2.47,
+      "mainNetIn": 45360904912,
+      "mainNetInRatio": 43.51
+    },
+    {
+      "code": "BK0689",
+      "name": "阿里概念",
+      "change": 1.95,
+      "mainNetIn": 45036949760,
+      "mainNetInRatio": 36.21
+    },
+    {
+      "code": "BK0833",
+      "name": "小米概念",
+      "change": 2.18,
+      "mainNetIn": 44678304768,
+      "mainNetInRatio": 32.03
+    },
+    {
+      "code": "BK0596",
+      "name": "融资融券",
+      "change": 1.89,
+      "mainNetIn": 42200821760,
+      "mainNetInRatio": 5.78
+    },
+    {
+      "code": "BK1137",
+      "name": "存储芯片",
+      "change": 1.82,
+      "mainNetIn": 40932110080,
+      "mainNetInRatio": 18.82
+    },
+    {
+      "code": "BK0891",
+      "name": "国产芯片",
+      "change": 1.7,
+      "mainNetIn": 40822766336,
+      "mainNetInRatio": 15.2
+    },
+    {
+      "code": "BK1637",
+      "name": "东方财富热股",
+      "change": 1.48,
+      "mainNetIn": 40783077888,
+      "mainNetInRatio": 15.21
+    },
+    {
+      "code": "BK0917",
+      "name": "半导体概念",
+      "change": 1.89,
+      "mainNetIn": 40238337024,
+      "mainNetInRatio": 13.34
+    },
+    {
+      "code": "BK0877",
+      "name": "PCB",
+      "change": 2.77,
+      "mainNetIn": 2081229312,
+      "mainNetInRatio": 3.64
+    },
+    {
+      "code": "BK0714",
+      "name": "5G概念",
+      "change": 2.35,
+      "mainNetIn": 2030396672,
+      "mainNetInRatio": 1.61
+    },
+    {
+      "code": "BK1633",
+      "name": "昨日高振幅",
+      "change": 1.59,
+      "mainNetIn": 1612079616,
+      "mainNetInRatio": 0.9
+    },
+    {
+      "code": "BK0854",
+      "name": "华为概念",
+      "change": 2.24,
+      "mainNetIn": 1420392448,
+      "mainNetInRatio": 0.83
+    },
+    {
+      "code": "BK1648",
+      "name": "电池技术",
+      "change": 2.33,
+      "mainNetIn": 1278773760,
+      "mainNetInRatio": 1.21
+    },
+    {
+      "code": "BK0552",
+      "name": "机构重仓",
+      "change": 1.94,
+      "mainNetIn": 1125844224,
+      "mainNetInRatio": 0.77
+    },
+    {
+      "code": "BK1136",
+      "name": "光通信模块",
+      "change": 2.57,
+      "mainNetIn": 1092798208,
+      "mainNetInRatio": 1.55
+    },
+    {
+      "code": "BK0574",
+      "name": "锂电池概念",
+      "change": 2.47,
+      "mainNetIn": 1014539264,
+      "mainNetInRatio": 1.26
+    },
+    {
+      "code": "BK1643",
+      "name": "小盘股",
+      "change": 1.88,
+      "mainNetIn": 1011091968,
+      "mainNetInRatio": 0.76
+    },
+    {
+      "code": "BK1650",
+      "name": "通信技术",
+      "change": 2.39,
+      "mainNetIn": 927292416,
+      "mainNetInRatio": 0.59
+    }
+  ],
+  "stockInTop": [
+    {
+      "code": "603986",
+      "name": "兆易创新",
+      "price": 442.16,
+      "change": -3.25,
+      "mainNetIn": -1411277248,
+      "mainNetInRatio": -11.62
+    },
+    {
+      "code": "002156",
+      "name": "通富微电",
+      "price": 76.15,
+      "change": -0.64,
+      "mainNetIn": -716133376,
+      "mainNetInRatio": -10.16
+    },
+    {
+      "code": "688008",
+      "name": "澜起科技",
+      "price": 229,
+      "change": -1.99,
+      "mainNetIn": -473466128,
+      "mainNetInRatio": -7.41
+    },
+    {
+      "code": "300433",
+      "name": "蓝思科技",
+      "price": 36.99,
+      "change": -0.88,
+      "mainNetIn": -471178288,
+      "mainNetInRatio": -16.09
+    },
+    {
+      "code": "688347",
+      "name": "华虹宏力",
+      "price": 316.03,
+      "change": -4.2,
+      "mainNetIn": -430739312,
+      "mainNetInRatio": -10.32
+    },
+    {
+      "code": "688766",
+      "name": "普冉股份",
+      "price": 370.01,
+      "change": -5.04,
+      "mainNetIn": -421709296,
+      "mainNetInRatio": -18.22
+    },
+    {
+      "code": "600584",
+      "name": "长电科技",
+      "price": 83.44,
+      "change": 0.65,
+      "mainNetIn": -392861296,
+      "mainNetInRatio": -7.77
+    },
+    {
+      "code": "688525",
+      "name": "佰维存储",
+      "price": 237.57,
+      "change": 0.5,
+      "mainNetIn": -290430064,
+      "mainNetInRatio": -10.44
+    },
+    {
+      "code": "688981",
+      "name": "中芯国际",
+      "price": 142.95,
+      "change": -0.54,
+      "mainNetIn": -279992112,
+      "mainNetInRatio": -9.1
+    },
+    {
+      "code": "001309",
+      "name": "德明利",
+      "price": 403,
+      "change": 0.78,
+      "mainNetIn": -277027024,
+      "mainNetInRatio": -8.37
+    }
+  ],
+  "stockOutTop": [
+    {
+      "code": "688825",
+      "name": "N长鑫",
+      "price": 48,
+      "change": 454.27,
+      "mainNetIn": 45559958192,
+      "mainNetInRatio": 51.05
+    },
+    {
+      "code": "600667",
+      "name": "太极实业",
+      "price": 17.92,
+      "change": 10.01,
+      "mainNetIn": 681421136,
+      "mainNetInRatio": 24.68
+    },
+    {
+      "code": "002475",
+      "name": "立讯精密",
+      "price": 62.53,
+      "change": 3.2,
+      "mainNetIn": 454668960,
+      "mainNetInRatio": 18.47
+    },
+    {
+      "code": "301526",
+      "name": "国际复材",
+      "price": 29.08,
+      "change": 13.15,
+      "mainNetIn": 428739758,
+      "mainNetInRatio": 16.18
+    },
+    {
+      "code": "002409",
+      "name": "雅克科技",
+      "price": 169.35,
+      "change": 10,
+      "mainNetIn": 399798224,
+      "mainNetInRatio": 9.89
+    },
+    {
+      "code": "600176",
+      "name": "中国巨石",
+      "price": 39.55,
+      "change": 5.92,
+      "mainNetIn": 389136704,
+      "mainNetInRatio": 12.36
+    },
+    {
+      "code": "000636",
+      "name": "风华高科",
+      "price": 44.24,
+      "change": 10,
+      "mainNetIn": 342339136,
+      "mainNetInRatio": 16.85
+    },
+    {
+      "code": "300750",
+      "name": "宁德时代",
+      "price": 396.06,
+      "change": 3.41,
+      "mainNetIn": 291941328,
+      "mainNetInRatio": 3.68
+    },
+    {
+      "code": "603228",
+      "name": "景旺电子",
+      "price": 79.5,
+      "change": 6.57,
+      "mainNetIn": 242244672,
+      "mainNetInRatio": 14.41
+    },
+    {
+      "code": "002463",
+      "name": "沪电股份",
+      "price": 116.8,
+      "change": 4.08,
+      "mainNetIn": 239368096,
+      "mainNetInRatio": 11.89
+    }
+  ],
   "summary": ""
 }
