@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T09:27:19.806Z",
+  "updated": "2026-07-30T11:29:07.894Z",
   "overview": {
     "totalSectorIn": 22342426377,
     "totalSectorOut": 0,
@@ -625,6 +625,87 @@
       "mainNetInRatio": -11.99
     }
   ],
-  "stockOutTop": [],
+  "stockOutTop": [
+    {
+      "code": "001309",
+      "name": "德明利",
+      "price": 390.04,
+      "change": 10,
+      "mainNetIn": 1454376224,
+      "mainNetInRatio": 12.8
+    },
+    {
+      "code": "600105",
+      "name": "永鼎股份",
+      "price": 32.96,
+      "change": 7.33,
+      "mainNetIn": 1401407680,
+      "mainNetInRatio": 14.86
+    },
+    {
+      "code": "688766",
+      "name": "普冉股份",
+      "price": 353.12,
+      "change": 4.32,
+      "mainNetIn": 1295674912,
+      "mainNetInRatio": 15.16
+    },
+    {
+      "code": "301526",
+      "name": "国际复材",
+      "price": 32.93,
+      "change": 9.04,
+      "mainNetIn": 1060116448,
+      "mainNetInRatio": 9.2
+    },
+    {
+      "code": "600036",
+      "name": "招商银行",
+      "price": 40.55,
+      "change": 2.24,
+      "mainNetIn": 931363264,
+      "mainNetInRatio": 16.88
+    },
+    {
+      "code": "688525",
+      "name": "佰维存储",
+      "price": 219.84,
+      "change": 3.76,
+      "mainNetIn": 775075248,
+      "mainNetInRatio": 6.82
+    },
+    {
+      "code": "300750",
+      "name": "宁德时代",
+      "price": 401.88,
+      "change": 1.27,
+      "mainNetIn": 682628704,
+      "mainNetInRatio": 3.77
+    },
+    {
+      "code": "600900",
+      "name": "长江电力",
+      "price": 29.49,
+      "change": 1.94,
+      "mainNetIn": 636393264,
+      "mainNetInRatio": 11.23
+    },
+    {
+      "code": "301308",
+      "name": "江波龙",
+      "price": 338.78,
+      "change": 2.78,
+      "mainNetIn": 619598928,
+      "mainNetInRatio": 6.9
+    },
+    {
+      "code": "601318",
+      "name": "中国平安",
+      "price": 55.8,
+      "change": 2.76,
+      "mainNetIn": 580826784,
+      "mainNetInRatio": 9.96
+    }
+  ],
   "summary": "【资金涌入最多板块】\n1. 银行：主力净流入 24.58 亿\n2. 银行Ⅱ：主力净流入 24.58 亿\n3. 股份制银行Ⅲ：主力净流入 17.01 亿\n4. 白酒Ⅲ：主力净流入 14.92 亿\n5. 白酒Ⅱ：主力净流入 14.92 亿"
 }
