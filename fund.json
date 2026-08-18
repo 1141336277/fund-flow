@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T09:27:47.468Z",
+  "updated": "2026-08-18T09:58:42.647Z",
   "overview": {
     "totalSectorIn": 23591617119,
     "totalSectorOut": 0,
@@ -543,88 +543,7 @@
       "mainNetInRatio": 2.05
     }
   ],
-  "stockInTop": [
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "price": 988.1,
-      "change": -1.29,
-      "mainNetIn": -2760858368,
-      "mainNetInRatio": -12.65
-    },
-    {
-      "code": "600183",
-      "name": "生益科技",
-      "price": 139.41,
-      "change": -3.52,
-      "mainNetIn": -1837824336,
-      "mainNetInRatio": -17.77
-    },
-    {
-      "code": "300502",
-      "name": "新易盛",
-      "price": 452.21,
-      "change": -3.1,
-      "mainNetIn": -1753076992,
-      "mainNetInRatio": -9.91
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "price": 436.74,
-      "change": -1.64,
-      "mainNetIn": -1615095296,
-      "mainNetInRatio": -6.03
-    },
-    {
-      "code": "688825",
-      "name": "长鑫科技",
-      "price": 59.19,
-      "change": -4.22,
-      "mainNetIn": -1560034048,
-      "mainNetInRatio": -6.13
-    },
-    {
-      "code": "601138",
-      "name": "工业富联",
-      "price": 66.2,
-      "change": -2.98,
-      "mainNetIn": -1502637264,
-      "mainNetInRatio": -17.18
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "price": 213.82,
-      "change": -1.76,
-      "mainNetIn": -1354011728,
-      "mainNetInRatio": -11.54
-    },
-    {
-      "code": "000938",
-      "name": "紫光股份",
-      "price": 39.25,
-      "change": -4.34,
-      "mainNetIn": -1261604416,
-      "mainNetInRatio": -11.64
-    },
-    {
-      "code": "688981",
-      "name": "中芯国际",
-      "price": 134.98,
-      "change": -1.3,
-      "mainNetIn": -1193853792,
-      "mainNetInRatio": -15.41
-    },
-    {
-      "code": "600487",
-      "name": "亨通光电",
-      "price": 65.41,
-      "change": 0.54,
-      "mainNetIn": -1161388320,
-      "mainNetInRatio": -6.79
-    }
-  ],
+  "stockInTop": [],
   "stockOutTop": [
     {
       "code": "000725",
