@@ -1,17 +1,630 @@
 {
-  "updated": "2026-08-20T10:01:51.768Z",
+  "updated": "2026-08-21T00:44:53.082Z",
   "overview": {
-    "totalSectorIn": 0,
+    "totalSectorIn": 56946470272,
     "totalSectorOut": 0,
-    "netFlow": 0,
-    "sectorCount": 0,
-    "inflowSectorCount": 0
+    "netFlow": 56946470272,
+    "sectorCount": 30,
+    "inflowSectorCount": 30
   },
   "marketFlow": null,
   "northBound": null,
-  "sectors": [],
-  "concepts": [],
-  "stockInTop": [],
+  "sectors": [
+    {
+      "code": "BK1216",
+      "name": "医药生物",
+      "price": 4862.1,
+      "change": 4.42,
+      "changeAmount": 206.03,
+      "mainNetIn": 10915898880,
+      "mainNetInRatio": 4.63,
+      "superLargeNetIn": 8765214464,
+      "superLargeNetInRatio": 3.72,
+      "largeNetIn": 2150684416,
+      "mediumNetIn": -4061585408
+    },
+    {
+      "code": "BK0727",
+      "name": "医疗服务",
+      "price": 1548.24,
+      "change": 6.06,
+      "changeAmount": 88.5,
+      "mainNetIn": 3787050240,
+      "mainNetInRatio": 6.01,
+      "superLargeNetIn": 2570821632,
+      "superLargeNetInRatio": 4.08,
+      "largeNetIn": 1216228608,
+      "mediumNetIn": -1144390656
+    },
+    {
+      "code": "BK0732",
+      "name": "贵金属",
+      "price": 2676.92,
+      "change": 5.56,
+      "changeAmount": 141.06,
+      "mainNetIn": 3379715072,
+      "mainNetInRatio": 9.51,
+      "superLargeNetIn": 2824968448,
+      "superLargeNetInRatio": 7.95,
+      "largeNetIn": 554746624,
+      "mediumNetIn": -1421270784
+    },
+    {
+      "code": "BK1044",
+      "name": "生物制品",
+      "price": 1094.44,
+      "change": 8.64,
+      "changeAmount": 87.05,
+      "mainNetIn": 3233524336,
+      "mainNetInRatio": 9.81,
+      "superLargeNetIn": 3330915696,
+      "superLargeNetInRatio": 10.11,
+      "largeNetIn": -97391360,
+      "mediumNetIn": -1113664768
+    },
+    {
+      "code": "BK0465",
+      "name": "化学制药",
+      "price": 38112.77,
+      "change": 3.95,
+      "changeAmount": 1448.75,
+      "mainNetIn": 2941969920,
+      "mainNetInRatio": 3.41,
+      "superLargeNetIn": 2002194176,
+      "superLargeNetInRatio": 2.32,
+      "largeNetIn": 939775744,
+      "mediumNetIn": -1072360448
+    },
+    {
+      "code": "BK1600",
+      "name": "医疗研发外包",
+      "price": 9535.44,
+      "change": 6.66,
+      "changeAmount": 595.2,
+      "mainNetIn": 2918643712,
+      "mainNetInRatio": 5.58,
+      "superLargeNetIn": 1718010624,
+      "superLargeNetInRatio": 3.28,
+      "largeNetIn": 1200633088,
+      "mediumNetIn": -772684544
+    },
+    {
+      "code": "BK0478",
+      "name": "有色金属",
+      "price": 27380.8,
+      "change": 0.46,
+      "changeAmount": 126.13,
+      "mainNetIn": 2510948096,
+      "mainNetInRatio": 1.75,
+      "superLargeNetIn": 2871373056,
+      "superLargeNetInRatio": 2,
+      "largeNetIn": -360424960,
+      "mediumNetIn": -1684628480
+    },
+    {
+      "code": "BK1615",
+      "name": "铜",
+      "price": 3774.35,
+      "change": 1.84,
+      "changeAmount": 68.32,
+      "mainNetIn": 2415745024,
+      "mainNetInRatio": 7.33,
+      "superLargeNetIn": 1744983296,
+      "superLargeNetInRatio": 5.3,
+      "largeNetIn": 670761728,
+      "mediumNetIn": -602258944
+    },
+    {
+      "code": "BK0448",
+      "name": "通信设备",
+      "price": 23068.87,
+      "change": 3.27,
+      "changeAmount": 730.28,
+      "mainNetIn": 2281235200,
+      "mainNetInRatio": 1.52,
+      "superLargeNetIn": 2876078848,
+      "superLargeNetInRatio": 1.91,
+      "largeNetIn": -594843648,
+      "mediumNetIn": 118307840
+    },
+    {
+      "code": "BK1215",
+      "name": "通信",
+      "price": 7515.61,
+      "change": 2.64,
+      "changeAmount": 193.27,
+      "mainNetIn": 2235057152,
+      "mainNetInRatio": 1.36,
+      "superLargeNetIn": 2906275840,
+      "superLargeNetInRatio": 1.77,
+      "largeNetIn": -671218688,
+      "mediumNetIn": -146493440
+    },
+    {
+      "code": "BK1592",
+      "name": "通信线缆及配套",
+      "price": 23835.02,
+      "change": 4.99,
+      "changeAmount": 1133.43,
+      "mainNetIn": 2031973376,
+      "mainNetInRatio": 5.34,
+      "superLargeNetIn": 2239330048,
+      "superLargeNetInRatio": 5.89,
+      "largeNetIn": -207356672,
+      "mediumNetIn": -1009297920
+    },
+    {
+      "code": "BK1617",
+      "name": "黄金",
+      "price": 7071.67,
+      "change": 5.45,
+      "changeAmount": 365.79,
+      "mainNetIn": 1976854864,
+      "mainNetInRatio": 7.56,
+      "superLargeNetIn": 1648218192,
+      "superLargeNetInRatio": 6.3,
+      "largeNetIn": 328636672,
+      "mediumNetIn": -991012096
+    },
+    {
+      "code": "BK1594",
+      "name": "化学制剂",
+      "price": 4076.25,
+      "change": 3.88,
+      "changeAmount": 152.27,
+      "mainNetIn": 1943847680,
+      "mainNetInRatio": 2.88,
+      "superLargeNetIn": 1264909056,
+      "superLargeNetInRatio": 1.87,
+      "largeNetIn": 678938624,
+      "mediumNetIn": -761801216
+    },
+    {
+      "code": "BK1596",
+      "name": "其他生物制品",
+      "price": 8700.66,
+      "change": 7.45,
+      "changeAmount": 603.35,
+      "mainNetIn": 1922338880,
+      "mainNetInRatio": 7.83,
+      "superLargeNetIn": 1631471424,
+      "superLargeNetInRatio": 6.64,
+      "largeNetIn": 290867456,
+      "mediumNetIn": -418314496
+    },
+    {
+      "code": "BK1287",
+      "name": "工业金属",
+      "price": 3244.54,
+      "change": 0.38,
+      "changeAmount": 12.25,
+      "mainNetIn": 1407675136,
+      "mainNetInRatio": 2.58,
+      "superLargeNetIn": 1213736960,
+      "superLargeNetInRatio": 2.23,
+      "largeNetIn": 193938176,
+      "mediumNetIn": -145020416
+    },
+    {
+      "code": "BK1616",
+      "name": "白银",
+      "price": 5151.97,
+      "change": 5.89,
+      "changeAmount": 286.36,
+      "mainNetIn": 1402860016,
+      "mainNetInRatio": 14.97,
+      "superLargeNetIn": 1176750240,
+      "superLargeNetInRatio": 12.56,
+      "largeNetIn": 226109776,
+      "mediumNetIn": -430258528
+    },
+    {
+      "code": "BK1598",
+      "name": "疫苗",
+      "price": 4441,
+      "change": 13.64,
+      "changeAmount": 533.14,
+      "mainNetIn": 1294052368,
+      "mainNetInRatio": 19.37,
+      "superLargeNetIn": 1722498560,
+      "superLargeNetInRatio": 25.79,
+      "largeNetIn": -428446192,
+      "mediumNetIn": -732335536
+    },
+    {
+      "code": "BK1595",
+      "name": "原料药",
+      "price": 4004.59,
+      "change": 4.13,
+      "changeAmount": 158.67,
+      "mainNetIn": 998122688,
+      "mainNetInRatio": 5.35,
+      "superLargeNetIn": 737285264,
+      "superLargeNetInRatio": 3.95,
+      "largeNetIn": 260837424,
+      "mediumNetIn": -310559232
+    },
+    {
+      "code": "BK1211",
+      "name": "汽车",
+      "price": 3803.21,
+      "change": 0.67,
+      "changeAmount": 25.32,
+      "mainNetIn": 965716144,
+      "mainNetInRatio": 1.91,
+      "superLargeNetIn": 713358768,
+      "superLargeNetInRatio": 1.41,
+      "largeNetIn": 252357376,
+      "mediumNetIn": -677707776
+    },
+    {
+      "code": "BK1262",
+      "name": "乘用车",
+      "price": 3576.27,
+      "change": 2.77,
+      "changeAmount": 96.32,
+      "mainNetIn": 810103504,
+      "mainNetInRatio": 12.9,
+      "superLargeNetIn": 581708176,
+      "superLargeNetInRatio": 9.26,
+      "largeNetIn": 228395328,
+      "mediumNetIn": -408258560
+    },
+    {
+      "code": "BK1213",
+      "name": "商贸零售",
+      "price": 2133.14,
+      "change": 1.82,
+      "changeAmount": 38.05,
+      "mainNetIn": 799087616,
+      "mainNetInRatio": 5.93,
+      "superLargeNetIn": 385552624,
+      "superLargeNetInRatio": 2.86,
+      "largeNetIn": 413534992,
+      "mediumNetIn": -470494416
+    },
+    {
+      "code": "BK0486",
+      "name": "传媒",
+      "price": 9322.16,
+      "change": 1.11,
+      "changeAmount": 102.07,
+      "mainNetIn": 730290000,
+      "mainNetInRatio": 2.18,
+      "superLargeNetIn": 265568592,
+      "superLargeNetInRatio": 0.79,
+      "largeNetIn": 464721408,
+      "mediumNetIn": -386477312
+    },
+    {
+      "code": "BK1041",
+      "name": "医疗器械",
+      "price": 945.1,
+      "change": 4.12,
+      "changeAmount": 37.44,
+      "mainNetIn": 675155568,
+      "mainNetInRatio": 2.26,
+      "superLargeNetIn": 578525296,
+      "superLargeNetInRatio": 1.94,
+      "largeNetIn": 96630272,
+      "mediumNetIn": -437476864
+    },
+    {
+      "code": "BK1519",
+      "name": "电动乘用车",
+      "price": 4476.8,
+      "change": 2.61,
+      "changeAmount": 114,
+      "mainNetIn": 649566320,
+      "mainNetInRatio": 13.55,
+      "superLargeNetIn": 506606768,
+      "superLargeNetInRatio": 10.57,
+      "largeNetIn": 142959552,
+      "mediumNetIn": -351116064
+    },
+    {
+      "code": "BK1203",
+      "name": "非银金融",
+      "price": 2358.74,
+      "change": 0.93,
+      "changeAmount": 21.63,
+      "mainNetIn": 560022672,
+      "mainNetInRatio": 1.99,
+      "superLargeNetIn": 499896208,
+      "superLargeNetInRatio": 1.78,
+      "largeNetIn": 60126464,
+      "mediumNetIn": -385785856
+    },
+    {
+      "code": "BK1602",
+      "name": "诊断服务",
+      "price": 6274.78,
+      "change": 10.11,
+      "changeAmount": 576.24,
+      "mainNetIn": 526284896,
+      "mainNetInRatio": 12.15,
+      "superLargeNetIn": 539008368,
+      "superLargeNetInRatio": 12.44,
+      "largeNetIn": -12723472,
+      "mediumNetIn": -175823712
+    },
+    {
+      "code": "BK0482",
+      "name": "一般零售",
+      "price": 16168.44,
+      "change": 1.52,
+      "changeAmount": 241.56,
+      "mainNetIn": 424964208,
+      "mainNetInRatio": 5.43,
+      "superLargeNetIn": 217095056,
+      "superLargeNetInRatio": 2.77,
+      "largeNetIn": 207869152,
+      "mediumNetIn": -325918048
+    },
+    {
+      "code": "BK0738",
+      "name": "多元金融",
+      "price": 563.33,
+      "change": 2.04,
+      "changeAmount": 11.26,
+      "mainNetIn": 414509840,
+      "mainNetInRatio": 8.97,
+      "superLargeNetIn": 289869872,
+      "superLargeNetInRatio": 6.27,
+      "largeNetIn": 124639968,
+      "mediumNetIn": -195696608
+    },
+    {
+      "code": "BK1358",
+      "name": "保险Ⅲ",
+      "price": 1295.37,
+      "change": 0.29,
+      "changeAmount": 3.78,
+      "mainNetIn": 396628432,
+      "mainNetInRatio": 7.6,
+      "superLargeNetIn": 226784560,
+      "superLargeNetInRatio": 4.35,
+      "largeNetIn": 169843872,
+      "mediumNetIn": -212495536
+    },
+    {
+      "code": "BK0474",
+      "name": "保险Ⅱ",
+      "price": 1295.37,
+      "change": 0.29,
+      "changeAmount": 3.78,
+      "mainNetIn": 396628432,
+      "mainNetInRatio": 7.6,
+      "superLargeNetIn": 226784560,
+      "superLargeNetInRatio": 4.35,
+      "largeNetIn": 169843872,
+      "mediumNetIn": -212495536
+    }
+  ],
+  "concepts": [
+    {
+      "code": "BK1106",
+      "name": "创新药",
+      "change": 4.85,
+      "mainNetIn": 6261482496,
+      "mainNetInRatio": 4.17
+    },
+    {
+      "code": "BK0547",
+      "name": "黄金概念",
+      "change": 2.17,
+      "mainNetIn": 5918791168,
+      "mainNetInRatio": 7.61
+    },
+    {
+      "code": "BK1657",
+      "name": "病原体防治",
+      "change": 4.79,
+      "mainNetIn": 5173302528,
+      "mainNetInRatio": 6.09
+    },
+    {
+      "code": "BK1712",
+      "name": "医药医疗风格",
+      "change": 4.63,
+      "mainNetIn": 4488798464,
+      "mainNetInRatio": 3.68
+    },
+    {
+      "code": "BK1660",
+      "name": "光纤概念",
+      "change": 3.05,
+      "mainNetIn": 3661435648,
+      "mainNetInRatio": 2.52
+    },
+    {
+      "code": "BK0899",
+      "name": "CRO",
+      "change": 5.72,
+      "mainNetIn": 3333660672,
+      "mainNetInRatio": 5.51
+    },
+    {
+      "code": "BK1658",
+      "name": "创新医疗服务",
+      "change": 3.98,
+      "mainNetIn": 3158000896,
+      "mainNetInRatio": 4.56
+    },
+    {
+      "code": "BK0675",
+      "name": "病毒防治",
+      "change": 4.81,
+      "mainNetIn": 3064698624,
+      "mainNetInRatio": 6.42
+    },
+    {
+      "code": "BK1174",
+      "name": "合成生物",
+      "change": 3.27,
+      "mainNetIn": 2928201472,
+      "mainNetInRatio": 5.18
+    },
+    {
+      "code": "BK0986",
+      "name": "CAR-T细胞疗法",
+      "change": 8.84,
+      "mainNetIn": 2841010944,
+      "mainNetInRatio": 8.36
+    },
+    {
+      "code": "BK1673",
+      "name": "破增发价股",
+      "change": 1.63,
+      "mainNetIn": 2650808576,
+      "mainNetInRatio": 1.44
+    },
+    {
+      "code": "BK1672",
+      "name": "破发股",
+      "change": 2.42,
+      "mainNetIn": 2615493120,
+      "mainNetInRatio": 3.29
+    },
+    {
+      "code": "BK1170",
+      "name": "AI制药（医疗）",
+      "change": 4.88,
+      "mainNetIn": 2503282416,
+      "mainNetInRatio": 6.29
+    },
+    {
+      "code": "BK0519",
+      "name": "稀缺资源",
+      "change": 0.53,
+      "mainNetIn": 2260522752,
+      "mainNetInRatio": 2.56
+    },
+    {
+      "code": "BK0548",
+      "name": "生物疫苗",
+      "change": 6.11,
+      "mainNetIn": 2171438416,
+      "mainNetInRatio": 6.76
+    },
+    {
+      "code": "BK0806",
+      "name": "精准医疗",
+      "change": 5.93,
+      "mainNetIn": 2022678448,
+      "mainNetInRatio": 8.66
+    },
+    {
+      "code": "BK1078",
+      "name": "肝炎概念",
+      "change": 4.87,
+      "mainNetIn": 1930209632,
+      "mainNetInRatio": 5.08
+    },
+    {
+      "code": "BK0695",
+      "name": "小金属概念",
+      "change": 0.69,
+      "mainNetIn": 1899418368,
+      "mainNetInRatio": 1.56
+    },
+    {
+      "code": "BK0906",
+      "name": "流感",
+      "change": 3.56,
+      "mainNetIn": 1863116416,
+      "mainNetInRatio": 3.61
+    },
+    {
+      "code": "BK1643",
+      "name": "小盘股",
+      "change": 0.92,
+      "mainNetIn": 1667018752,
+      "mainNetInRatio": 0.38
+    }
+  ],
+  "stockInTop": [
+    {
+      "code": "300308",
+      "name": "中际旭创",
+      "price": 904.2,
+      "change": 0.96,
+      "mainNetIn": -1562599936,
+      "mainNetInRatio": -7.68
+    },
+    {
+      "code": "000636",
+      "name": "风华高科",
+      "price": 53.09,
+      "change": -5.38,
+      "mainNetIn": -1271757616,
+      "mainNetInRatio": -12.51
+    },
+    {
+      "code": "688836",
+      "name": "C宇树-W",
+      "price": 687,
+      "change": -18.7,
+      "mainNetIn": -1095917680,
+      "mainNetInRatio": -12.08
+    },
+    {
+      "code": "688041",
+      "name": "海光信息",
+      "price": 246.33,
+      "change": -5.16,
+      "mainNetIn": -911470288,
+      "mainNetInRatio": -11.75
+    },
+    {
+      "code": "002202",
+      "name": "金风科技",
+      "price": 19.84,
+      "change": -9.94,
+      "mainNetIn": -886970528,
+      "mainNetInRatio": -16.2
+    },
+    {
+      "code": "688825",
+      "name": "长鑫科技",
+      "price": 57.57,
+      "change": 0.03,
+      "mainNetIn": -849246976,
+      "mainNetInRatio": -5.01
+    },
+    {
+      "code": "600276",
+      "name": "恒瑞医药",
+      "price": 49.5,
+      "change": -6,
+      "mainNetIn": -678720784,
+      "mainNetInRatio": -5.69
+    },
+    {
+      "code": "002475",
+      "name": "立讯精密",
+      "price": 53.34,
+      "change": -0.3,
+      "mainNetIn": -658847792,
+      "mainNetInRatio": -13.85
+    },
+    {
+      "code": "300502",
+      "name": "新易盛",
+      "price": 414.02,
+      "change": 0.61,
+      "mainNetIn": -616951984,
+      "mainNetInRatio": -5.25
+    },
+    {
+      "code": "000657",
+      "name": "中钨高新",
+      "price": 64.45,
+      "change": -2.58,
+      "mainNetIn": -597990032,
+      "mainNetInRatio": -10.77
+    }
+  ],
   "stockOutTop": [],
-  "summary": ""
+  "summary": "【资金涌入最多板块】\n1. 医药生物：主力净流入 109.16 亿\n2. 医疗服务：主力净流入 37.87 亿\n3. 贵金属：主力净流入 33.80 亿\n4. 生物制品：主力净流入 32.34 亿\n5. 化学制药：主力净流入 29.42 亿"
 }
