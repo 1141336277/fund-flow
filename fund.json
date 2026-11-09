@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-09T03:45:34.754Z",
+  "updated": "2026-11-09T17:05:54.434Z",
   "overview": {
-    "totalSectorIn": 54145032848,
+    "totalSectorIn": 54175396096,
     "totalSectorOut": 0,
-    "netFlow": 54145032848,
+    "netFlow": 54175396096,
     "sectorCount": 30,
     "inflowSectorCount": 30
   },
@@ -13,699 +13,699 @@
     {
       "code": "BK1201",
       "name": "电子",
-      "price": 10657.16,
-      "change": 1.36,
-      "changeAmount": 143.46,
-      "mainNetIn": 9322838016,
-      "mainNetInRatio": 3.91,
-      "superLargeNetIn": 5392560384,
-      "superLargeNetInRatio": 2.26,
-      "largeNetIn": 3930277632,
-      "mediumNetIn": -3982565376
-    },
-    {
-      "code": "BK0448",
-      "name": "通信设备",
-      "price": 18538.38,
-      "change": 2.59,
-      "changeAmount": 468.43,
-      "mainNetIn": 4392868864,
-      "mainNetInRatio": 6.55,
-      "superLargeNetIn": 3242531328,
-      "superLargeNetInRatio": 4.83,
-      "largeNetIn": 1150337536,
-      "mediumNetIn": -2066630912
-    },
-    {
-      "code": "BK1215",
-      "name": "通信",
-      "price": 6260.3,
-      "change": 1.74,
-      "changeAmount": 106.93,
-      "mainNetIn": 4113793536,
-      "mainNetInRatio": 5.53,
-      "superLargeNetIn": 3140784640,
-      "superLargeNetInRatio": 4.22,
-      "largeNetIn": 973008896,
-      "mediumNetIn": -1949044224
+      "price": 10609.53,
+      "change": 0.91,
+      "changeAmount": 95.83,
+      "mainNetIn": 9338673920,
+      "mainNetInRatio": 2.7,
+      "superLargeNetIn": 5355789056,
+      "superLargeNetInRatio": 1.55,
+      "largeNetIn": 3982884864,
+      "mediumNetIn": -4868816896
     },
     {
       "code": "BK0459",
       "name": "元件",
-      "price": 46645.81,
-      "change": 4.06,
-      "changeAmount": 1821.83,
-      "mainNetIn": 4066586624,
-      "mainNetInRatio": 7.14,
-      "superLargeNetIn": 2994192896,
-      "superLargeNetInRatio": 5.26,
-      "largeNetIn": 1072393728,
-      "mediumNetIn": -1503832320
+      "price": 45938.97,
+      "change": 2.49,
+      "changeAmount": 1114.99,
+      "mainNetIn": 3841536512,
+      "mainNetInRatio": 4.94,
+      "superLargeNetIn": 2942933504,
+      "superLargeNetInRatio": 3.78,
+      "largeNetIn": 898603008,
+      "mediumNetIn": -1848844032
     },
     {
       "code": "BK1340",
       "name": "印制电路板",
-      "price": 10018.96,
-      "change": 4.85,
-      "changeAmount": 463.05,
-      "mainNetIn": 3871080960,
-      "mainNetInRatio": 7.68,
-      "superLargeNetIn": 2982914048,
-      "superLargeNetInRatio": 5.92,
-      "largeNetIn": 888166912,
-      "mediumNetIn": -1725675520
+      "price": 9849.11,
+      "change": 3.07,
+      "changeAmount": 293.2,
+      "mainNetIn": 3763197952,
+      "mainNetInRatio": 5.5,
+      "superLargeNetIn": 2974980864,
+      "superLargeNetInRatio": 4.35,
+      "largeNetIn": 788217088,
+      "mediumNetIn": -2171992320
+    },
+    {
+      "code": "BK0448",
+      "name": "通信设备",
+      "price": 18376.3,
+      "change": 1.7,
+      "changeAmount": 306.35,
+      "mainNetIn": 3733729024,
+      "mainNetInRatio": 4.07,
+      "superLargeNetIn": 3179077120,
+      "superLargeNetInRatio": 3.47,
+      "largeNetIn": 554651904,
+      "mediumNetIn": -1602302208
+    },
+    {
+      "code": "BK1215",
+      "name": "通信",
+      "price": 6213.2,
+      "change": 0.97,
+      "changeAmount": 59.83,
+      "mainNetIn": 3246463232,
+      "mainNetInRatio": 3.17,
+      "superLargeNetIn": 2958187776,
+      "superLargeNetInRatio": 2.89,
+      "largeNetIn": 288275456,
+      "mediumNetIn": -1339605760
     },
     {
       "code": "BK1591",
       "name": "通信网络设备及器件",
-      "price": 10318.12,
-      "change": 2.58,
-      "changeAmount": 259.54,
-      "mainNetIn": 2948987648,
-      "mainNetInRatio": 6.37,
-      "superLargeNetIn": 2056249856,
-      "superLargeNetInRatio": 4.44,
-      "largeNetIn": 892737792,
-      "mediumNetIn": -1448511744
+      "price": 10212.31,
+      "change": 1.53,
+      "changeAmount": 153.73,
+      "mainNetIn": 2755503872,
+      "mainNetInRatio": 4.36,
+      "superLargeNetIn": 2169538560,
+      "superLargeNetInRatio": 3.43,
+      "largeNetIn": 585965312,
+      "mediumNetIn": -1021616896
     },
     {
       "code": "BK1037",
       "name": "消费电子",
-      "price": 1775.15,
-      "change": 1.29,
-      "changeAmount": 22.58,
-      "mainNetIn": 2678189216,
-      "mainNetInRatio": 7.77,
-      "superLargeNetIn": 1810109856,
-      "superLargeNetInRatio": 5.25,
-      "largeNetIn": 868079360,
-      "mediumNetIn": -932551936
+      "price": 1773.63,
+      "change": 1.2,
+      "changeAmount": 21.06,
+      "mainNetIn": 2655162624,
+      "mainNetInRatio": 5.43,
+      "superLargeNetIn": 1695859968,
+      "superLargeNetInRatio": 3.47,
+      "largeNetIn": 959302656,
+      "mediumNetIn": -858680320
     },
     {
       "code": "BK1338",
       "name": "消费电子零部件及组装",
-      "price": 11340.94,
-      "change": 1.34,
-      "changeAmount": 150.41,
-      "mainNetIn": 2628511760,
-      "mainNetInRatio": 8.46,
-      "superLargeNetIn": 1860389904,
-      "superLargeNetInRatio": 5.99,
-      "largeNetIn": 768121856,
-      "mediumNetIn": -955322624
-    },
-    {
-      "code": "BK1036",
-      "name": "半导体",
-      "price": 2146.83,
-      "change": 0.7,
-      "changeAmount": 15,
-      "mainNetIn": 1782580224,
-      "mainNetInRatio": 1.58,
-      "superLargeNetIn": 91471616,
-      "superLargeNetInRatio": 0.08,
-      "largeNetIn": 1691108608,
-      "mediumNetIn": -1398089728
+      "price": 11329.24,
+      "change": 1.24,
+      "changeAmount": 138.71,
+      "mainNetIn": 2613484800,
+      "mainNetInRatio": 5.9,
+      "superLargeNetIn": 1770926848,
+      "superLargeNetInRatio": 4,
+      "largeNetIn": 842557952,
+      "mediumNetIn": -859892224
     },
     {
       "code": "BK1205",
       "name": "机械设备",
-      "price": 4149.58,
-      "change": 0.72,
-      "changeAmount": 29.86,
-      "mainNetIn": 1580988160,
-      "mainNetInRatio": 1.79,
-      "superLargeNetIn": 1242561280,
-      "superLargeNetInRatio": 1.4,
-      "largeNetIn": 338426880,
-      "mediumNetIn": -361357056
+      "price": 4145.53,
+      "change": 0.63,
+      "changeAmount": 25.81,
+      "mainNetIn": 2336977920,
+      "mainNetInRatio": 1.84,
+      "superLargeNetIn": 1998111744,
+      "superLargeNetInRatio": 1.57,
+      "largeNetIn": 338866176,
+      "mediumNetIn": -315008256
+    },
+    {
+      "code": "BK1036",
+      "name": "半导体",
+      "price": 2141.72,
+      "change": 0.46,
+      "changeAmount": 9.89,
+      "mainNetIn": 2311931392,
+      "mainNetInRatio": 1.36,
+      "superLargeNetIn": 322426112,
+      "superLargeNetInRatio": 0.19,
+      "largeNetIn": 1989505280,
+      "mediumNetIn": -2226267136
     },
     {
       "code": "BK0545",
       "name": "通用设备",
-      "price": 44320.18,
-      "change": 1.13,
-      "changeAmount": 493.26,
-      "mainNetIn": 1377354528,
-      "mainNetInRatio": 3.69,
-      "superLargeNetIn": 1057815072,
-      "superLargeNetInRatio": 2.83,
-      "largeNetIn": 319539456,
-      "mediumNetIn": -350375936
-    },
-    {
-      "code": "BK1204",
-      "name": "国防军工",
-      "price": 5075.46,
-      "change": 1.47,
-      "changeAmount": 73.72,
-      "mainNetIn": 1318530064,
-      "mainNetInRatio": 4.2,
-      "superLargeNetIn": 1085302544,
-      "superLargeNetInRatio": 3.46,
-      "largeNetIn": 233227520,
-      "mediumNetIn": -485117440
-    },
-    {
-      "code": "BK1331",
-      "name": "数字芯片设计",
-      "price": 20304.4,
-      "change": 1.06,
-      "changeAmount": 212.05,
-      "mainNetIn": 1192332800,
-      "mainNetInRatio": 2.44,
-      "superLargeNetIn": 258089216,
-      "superLargeNetInRatio": 0.53,
-      "largeNetIn": 934243584,
-      "mediumNetIn": -1234580992
+      "price": 44300.59,
+      "change": 1.08,
+      "changeAmount": 473.67,
+      "mainNetIn": 2032518368,
+      "mainNetInRatio": 3.79,
+      "superLargeNetIn": 1826089184,
+      "superLargeNetInRatio": 3.4,
+      "largeNetIn": 206429184,
+      "mediumNetIn": -583540736
     },
     {
       "code": "BK0481",
       "name": "汽车零部件",
-      "price": 40207.52,
-      "change": 0.92,
-      "changeAmount": 366.85,
-      "mainNetIn": 1137032640,
-      "mainNetInRatio": 3.29,
-      "superLargeNetIn": 865312960,
-      "superLargeNetInRatio": 2.5,
-      "largeNetIn": 271719680,
-      "mediumNetIn": -476525056
+      "price": 40336.96,
+      "change": 1.25,
+      "changeAmount": 496.29,
+      "mainNetIn": 1277613888,
+      "mainNetInRatio": 2.6,
+      "superLargeNetIn": 991484224,
+      "superLargeNetInRatio": 2.02,
+      "largeNetIn": 286129664,
+      "mediumNetIn": -602163968
     },
     {
-      "code": "BK1592",
-      "name": "通信线缆及配套",
-      "price": 18203.42,
-      "change": 4,
-      "changeAmount": 700.64,
-      "mainNetIn": 966219008,
-      "mainNetInRatio": 7.57,
-      "superLargeNetIn": 771850624,
-      "superLargeNetInRatio": 6.05,
-      "largeNetIn": 194368384,
-      "mediumNetIn": -370156288
+      "code": "BK1331",
+      "name": "数字芯片设计",
+      "price": 20289.32,
+      "change": 0.98,
+      "changeAmount": 196.97,
+      "mainNetIn": 1217379072,
+      "mainNetInRatio": 1.59,
+      "superLargeNetIn": 419406080,
+      "superLargeNetInRatio": 0.55,
+      "largeNetIn": 797972992,
+      "mediumNetIn": -1901579776
     },
     {
-      "code": "BK0437",
-      "name": "煤炭",
-      "price": 13262.51,
-      "change": 3.42,
-      "changeAmount": 438.12,
-      "mainNetIn": 901650288,
-      "mainNetInRatio": 9.91,
-      "superLargeNetIn": 645875472,
-      "superLargeNetInRatio": 7.1,
-      "largeNetIn": 255774816,
-      "mediumNetIn": -465613104
-    },
-    {
-      "code": "BK0727",
-      "name": "医疗服务",
-      "price": 1411.03,
-      "change": 1.49,
-      "changeAmount": 20.76,
-      "mainNetIn": 897817424,
-      "mainNetInRatio": 5.46,
-      "superLargeNetIn": 713528288,
-      "superLargeNetInRatio": 4.34,
-      "largeNetIn": 184289136,
-      "mediumNetIn": -265427200
+      "code": "BK1400",
+      "name": "制冷空调设备",
+      "price": 3917.25,
+      "change": 1.44,
+      "changeAmount": 55.68,
+      "mainNetIn": 1135114336,
+      "mainNetInRatio": 16.8,
+      "superLargeNetIn": 1270549744,
+      "superLargeNetInRatio": 18.81,
+      "largeNetIn": -135435408,
+      "mediumNetIn": -468089040
     },
     {
       "code": "BK1211",
       "name": "汽车",
-      "price": 3613.48,
-      "change": 0.73,
-      "changeAmount": 26.18,
-      "mainNetIn": 848565312,
-      "mainNetInRatio": 2.1,
-      "superLargeNetIn": 662353984,
-      "superLargeNetInRatio": 1.64,
-      "largeNetIn": 186211328,
-      "mediumNetIn": -406500608
+      "price": 3622.77,
+      "change": 0.99,
+      "changeAmount": 35.47,
+      "mainNetIn": 1083540224,
+      "mainNetInRatio": 1.84,
+      "superLargeNetIn": 856516864,
+      "superLargeNetInRatio": 1.46,
+      "largeNetIn": 227023360,
+      "mediumNetIn": -648439040
     },
     {
-      "code": "BK1385",
-      "name": "航天装备Ⅲ",
-      "price": 4283.36,
-      "change": 3.66,
-      "changeAmount": 151.3,
-      "mainNetIn": 846044656,
-      "mainNetInRatio": 14.15,
-      "superLargeNetIn": 615833904,
-      "superLargeNetInRatio": 10.3,
-      "largeNetIn": 230210752,
-      "mediumNetIn": -303701952
-    },
-    {
-      "code": "BK1232",
-      "name": "航天装备Ⅱ",
-      "price": 4283.36,
-      "change": 3.66,
-      "changeAmount": 151.3,
-      "mainNetIn": 846044656,
-      "mainNetInRatio": 14.15,
-      "superLargeNetIn": 615833904,
-      "superLargeNetInRatio": 10.3,
-      "largeNetIn": 230210752,
-      "mediumNetIn": -303701952
-    },
-    {
-      "code": "BK1526",
-      "name": "底盘与发动机系统",
-      "price": 3851.14,
-      "change": 1.19,
-      "changeAmount": 45.45,
-      "mainNetIn": 755994032,
-      "mainNetInRatio": 4.35,
-      "superLargeNetIn": 589417824,
-      "superLargeNetInRatio": 3.39,
-      "largeNetIn": 166576208,
-      "mediumNetIn": -364774656
-    },
-    {
-      "code": "BK1250",
-      "name": "煤炭开采",
-      "price": 1824.6,
-      "change": 3.09,
-      "changeAmount": 54.76,
-      "mainNetIn": 702500784,
-      "mainNetInRatio": 8.87,
-      "superLargeNetIn": 480201360,
-      "superLargeNetInRatio": 6.06,
-      "largeNetIn": 222299424,
-      "mediumNetIn": -394641280
-    },
-    {
-      "code": "BK0486",
-      "name": "传媒",
-      "price": 10649.79,
-      "change": -0.47,
-      "changeAmount": -50.41,
-      "mainNetIn": 683254528,
-      "mainNetInRatio": 1.18,
-      "superLargeNetIn": 953074944,
-      "superLargeNetInRatio": 1.65,
-      "largeNetIn": -269820416,
-      "mediumNetIn": -700905216
+      "code": "BK1204",
+      "name": "国防军工",
+      "price": 5059.57,
+      "change": 1.16,
+      "changeAmount": 57.83,
+      "mainNetIn": 1009283888,
+      "mainNetInRatio": 2.21,
+      "superLargeNetIn": 1013851952,
+      "superLargeNetInRatio": 2.22,
+      "largeNetIn": -4568064,
+      "mediumNetIn": -397038080
     },
     {
       "code": "BK1283",
       "name": "银行",
-      "price": 4515.27,
-      "change": 0.67,
-      "changeAmount": 29.83,
-      "mainNetIn": 676178176,
-      "mainNetInRatio": 3.97,
-      "superLargeNetIn": 349585872,
-      "superLargeNetInRatio": 2.05,
-      "largeNetIn": 326592304,
-      "mediumNetIn": -504899072
+      "price": 4529.45,
+      "change": 0.98,
+      "changeAmount": 44.01,
+      "mainNetIn": 978803712,
+      "mainNetInRatio": 3.19,
+      "superLargeNetIn": 205860096,
+      "superLargeNetInRatio": 0.67,
+      "largeNetIn": 772943616,
+      "mediumNetIn": -779194624
     },
     {
       "code": "BK0475",
       "name": "银行Ⅱ",
-      "price": 4515.27,
-      "change": 0.67,
-      "changeAmount": 29.83,
-      "mainNetIn": 676178176,
-      "mainNetInRatio": 3.97,
-      "superLargeNetIn": 349585872,
-      "superLargeNetInRatio": 2.05,
-      "largeNetIn": 326592304,
-      "mediumNetIn": -504899072
+      "price": 4529.45,
+      "change": 0.98,
+      "changeAmount": 44.01,
+      "mainNetIn": 978803712,
+      "mainNetInRatio": 3.19,
+      "superLargeNetIn": 205860096,
+      "superLargeNetInRatio": 0.67,
+      "largeNetIn": 772943616,
+      "mediumNetIn": -779194624
     },
     {
-      "code": "BK1221",
-      "name": "数字媒体",
-      "price": 7302.89,
-      "change": 0.47,
-      "changeAmount": 34.51,
-      "mainNetIn": 610443728,
-      "mainNetInRatio": 3.97,
-      "superLargeNetIn": 544412160,
-      "superLargeNetInRatio": 3.54,
-      "largeNetIn": 66031568,
-      "mediumNetIn": -346813184
+      "code": "BK0437",
+      "name": "煤炭",
+      "price": 13269.8,
+      "change": 3.47,
+      "changeAmount": 445.41,
+      "mainNetIn": 934450272,
+      "mainNetInRatio": 6.81,
+      "superLargeNetIn": 624751360,
+      "superLargeNetInRatio": 4.55,
+      "largeNetIn": 309698912,
+      "mediumNetIn": -461836448
     },
     {
-      "code": "BK0454",
-      "name": "塑料",
-      "price": 19028.19,
-      "change": 1.11,
-      "changeAmount": 209.42,
-      "mainNetIn": 594904272,
-      "mainNetInRatio": 4.34,
-      "superLargeNetIn": 426069920,
-      "superLargeNetInRatio": 3.11,
-      "largeNetIn": 168834352,
-      "mediumNetIn": -174036128
+      "code": "BK1250",
+      "name": "煤炭开采",
+      "price": 1822.52,
+      "change": 2.98,
+      "changeAmount": 52.68,
+      "mainNetIn": 740028336,
+      "mainNetInRatio": 6.12,
+      "superLargeNetIn": 462523760,
+      "superLargeNetInRatio": 3.83,
+      "largeNetIn": 277504576,
+      "mediumNetIn": -410492640
     },
     {
-      "code": "BK1038",
-      "name": "光学光电子",
-      "price": 1763.25,
-      "change": 1.07,
-      "changeAmount": 18.65,
-      "mainNetIn": 582435360,
-      "mainNetInRatio": 3.08,
-      "superLargeNetIn": 439917856,
-      "superLargeNetInRatio": 2.32,
-      "largeNetIn": 142517504,
-      "mediumNetIn": -177482496
+      "code": "BK1526",
+      "name": "底盘与发动机系统",
+      "price": 3864.47,
+      "change": 1.54,
+      "changeAmount": 58.78,
+      "mainNetIn": 732716016,
+      "mainNetInRatio": 3.02,
+      "superLargeNetIn": 687281648,
+      "superLargeNetInRatio": 2.83,
+      "largeNetIn": 45434368,
+      "mediumNetIn": -473051392
     },
     {
-      "code": "BK1027",
-      "name": "小金属",
-      "price": 3246.66,
-      "change": 2.75,
-      "changeAmount": 86.94,
-      "mainNetIn": 577427632,
-      "mainNetInRatio": 5.53,
-      "superLargeNetIn": 496030768,
-      "superLargeNetInRatio": 4.75,
-      "largeNetIn": 81396864,
-      "mediumNetIn": -155712080
+      "code": "BK1385",
+      "name": "航天装备Ⅲ",
+      "price": 4211.41,
+      "change": 1.92,
+      "changeAmount": 79.35,
+      "mainNetIn": 663729984,
+      "mainNetInRatio": 7.24,
+      "superLargeNetIn": 567548304,
+      "superLargeNetInRatio": 6.19,
+      "largeNetIn": 96181680,
+      "mediumNetIn": -247419936
+    },
+    {
+      "code": "BK1232",
+      "name": "航天装备Ⅱ",
+      "price": 4211.41,
+      "change": 1.92,
+      "changeAmount": 79.35,
+      "mainNetIn": 663729984,
+      "mainNetInRatio": 7.24,
+      "superLargeNetIn": 567548304,
+      "superLargeNetInRatio": 6.19,
+      "largeNetIn": 96181680,
+      "mediumNetIn": -247419936
+    },
+    {
+      "code": "BK1326",
+      "name": "半导体设备",
+      "price": 35932.16,
+      "change": -0.19,
+      "changeAmount": -67.89,
+      "mainNetIn": 656057056,
+      "mainNetInRatio": 2.15,
+      "superLargeNetIn": -118180128,
+      "superLargeNetInRatio": -0.39,
+      "largeNetIn": 774237184,
+      "mediumNetIn": -348855808
     },
     {
       "code": "BK1611",
       "name": "国有大型银行Ⅲ",
-      "price": 3627.55,
-      "change": 1.22,
-      "changeAmount": 43.68,
-      "mainNetIn": 567699776,
-      "mainNetInRatio": 8.13,
-      "superLargeNetIn": 604038464,
-      "superLargeNetInRatio": 8.66,
-      "largeNetIn": -36338688,
-      "mediumNetIn": -319756688
+      "price": 3650.05,
+      "change": 1.85,
+      "changeAmount": 66.18,
+      "mainNetIn": 646220320,
+      "mainNetInRatio": 5.51,
+      "superLargeNetIn": 653616080,
+      "superLargeNetInRatio": 5.57,
+      "largeNetIn": -7395760,
+      "mediumNetIn": -386301936
+    },
+    {
+      "code": "BK1221",
+      "name": "数字媒体",
+      "price": 7286.2,
+      "change": 0.25,
+      "changeAmount": 17.82,
+      "mainNetIn": 622206976,
+      "mainNetInRatio": 3.14,
+      "superLargeNetIn": 673162496,
+      "superLargeNetInRatio": 3.39,
+      "largeNetIn": -50955520,
+      "mediumNetIn": -444138752
+    },
+    {
+      "code": "BK0478",
+      "name": "有色金属",
+      "price": 22833.82,
+      "change": 0.45,
+      "changeAmount": 101.65,
+      "mainNetIn": 620207872,
+      "mainNetInRatio": 1,
+      "superLargeNetIn": 727226880,
+      "superLargeNetInRatio": 1.17,
+      "largeNetIn": -107019008,
+      "mediumNetIn": -151735552
+    },
+    {
+      "code": "BK1493",
+      "name": "动力煤",
+      "price": 2400.39,
+      "change": 3.22,
+      "changeAmount": 74.9,
+      "mainNetIn": 535211888,
+      "mainNetInRatio": 5.64,
+      "superLargeNetIn": 320425120,
+      "superLargeNetInRatio": 3.38,
+      "largeNetIn": 214786768,
+      "mediumNetIn": -305983760
+    },
+    {
+      "code": "BK1237",
+      "name": "自动化设备",
+      "price": 9582.89,
+      "change": 1.15,
+      "changeAmount": 108.63,
+      "mainNetIn": 532045808,
+      "mainNetInRatio": 1.57,
+      "superLargeNetIn": 456198640,
+      "superLargeNetInRatio": 1.34,
+      "largeNetIn": 75847168,
+      "mediumNetIn": -148495360
+    },
+    {
+      "code": "BK1592",
+      "name": "通信线缆及配套",
+      "price": 17959.97,
+      "change": 2.61,
+      "changeAmount": 457.19,
+      "mainNetIn": 519073136,
+      "mainNetInRatio": 3.01,
+      "superLargeNetIn": 570940608,
+      "superLargeNetInRatio": 3.31,
+      "largeNetIn": -51867472,
+      "mediumNetIn": -221256448
     }
   ],
   "concepts": [
     {
       "code": "BK0596",
       "name": "融资融券",
-      "change": 0.45,
-      "mainNetIn": 14391177216,
-      "mainNetInRatio": 1.64
-    },
-    {
-      "code": "BK0714",
-      "name": "5G概念",
-      "change": 1.77,
-      "mainNetIn": 10424710656,
-      "mainNetInRatio": 6.14
-    },
-    {
-      "code": "BK1689",
-      "name": "基金减仓",
-      "change": 0.43,
-      "mainNetIn": 9847086592,
-      "mainNetInRatio": 1.81
+      "change": 0.08,
+      "mainNetIn": 10220699648,
+      "mainNetInRatio": 0.79
     },
     {
       "code": "BK0707",
       "name": "沪股通",
-      "change": 0.45,
-      "mainNetIn": 9724086528,
-      "mainNetInRatio": 2.48
+      "change": 0.14,
+      "mainNetIn": 9419310336,
+      "mainNetInRatio": 1.6
+    },
+    {
+      "code": "BK0714",
+      "name": "5G概念",
+      "change": 1.08,
+      "mainNetIn": 8814423552,
+      "mainNetInRatio": 3.74
     },
     {
       "code": "BK1650",
       "name": "通信技术",
-      "change": 1.74,
-      "mainNetIn": 9572977408,
-      "mainNetInRatio": 4.9
+      "change": 1.06,
+      "mainNetIn": 7692570880,
+      "mainNetInRatio": 2.83
     },
     {
       "code": "BK1713",
       "name": "科技风格",
-      "change": 1.33,
-      "mainNetIn": 8203587584,
-      "mainNetInRatio": 4.45
+      "change": 0.58,
+      "mainNetIn": 7113405952,
+      "mainNetInRatio": 2.68
     },
     {
-      "code": "BK0821",
-      "name": "MSCI中国",
-      "change": 0.32,
-      "mainNetIn": 7580820480,
-      "mainNetInRatio": 1.77
-    },
-    {
-      "code": "BK1663",
-      "name": "大盘股",
-      "change": 0.54,
-      "mainNetIn": 7009249280,
-      "mainNetInRatio": 2.27
-    },
-    {
-      "code": "BK1749",
-      "name": "2026中报预增",
-      "change": 0.73,
-      "mainNetIn": 6874902784,
-      "mainNetInRatio": 2.85
-    },
-    {
-      "code": "BK0867",
-      "name": "富时罗素",
-      "change": 0.17,
-      "mainNetIn": 6829635072,
-      "mainNetInRatio": 1.53
-    },
-    {
-      "code": "BK1136",
-      "name": "光通信模块",
-      "change": 2.87,
-      "mainNetIn": 6165257472,
-      "mainNetInRatio": 5.72
-    },
-    {
-      "code": "BK1128",
-      "name": "CPO概念",
-      "change": 2.64,
-      "mainNetIn": 6104738304,
-      "mainNetInRatio": 5.71
+      "code": "BK1689",
+      "name": "基金减仓",
+      "change": 0.05,
+      "mainNetIn": 6931685376,
+      "mainNetInRatio": 0.86
     },
     {
       "code": "BK0552",
       "name": "机构重仓",
-      "change": 0.38,
-      "mainNetIn": 5908353280,
-      "mainNetInRatio": 1.88
+      "change": 0.13,
+      "mainNetIn": 6314669056,
+      "mainNetInRatio": 1.34
+    },
+    {
+      "code": "BK1663",
+      "name": "大盘股",
+      "change": 0.2,
+      "mainNetIn": 5766045696,
+      "mainNetInRatio": 1.25
     },
     {
       "code": "BK1059",
       "name": "百元股",
-      "change": 1.53,
-      "mainNetIn": 5799516928,
-      "mainNetInRatio": 3.12
+      "change": 0.99,
+      "mainNetIn": 5672765440,
+      "mainNetInRatio": 2.14
     },
     {
-      "code": "BK0804",
-      "name": "深股通",
-      "change": 0.49,
-      "mainNetIn": 5703929600,
-      "mainNetInRatio": 1.16
+      "code": "BK1136",
+      "name": "光通信模块",
+      "change": 1.87,
+      "mainNetIn": 5330090752,
+      "mainNetInRatio": 3.61
     },
     {
       "code": "BK1090",
       "name": "机器人概念",
-      "change": 1.1,
-      "mainNetIn": 5702638336,
-      "mainNetInRatio": 2.91
-    },
-    {
-      "code": "BK0500",
-      "name": "HS300_",
-      "change": 0.14,
-      "mainNetIn": 5538548992,
-      "mainNetInRatio": 2.1
-    },
-    {
-      "code": "BK0963",
-      "name": "商业航天",
-      "change": 2.35,
-      "mainNetIn": 5348654080,
-      "mainNetInRatio": 5.49
+      "change": 1.02,
+      "mainNetIn": 5192583680,
+      "mainNetInRatio": 1.89
     },
     {
       "code": "BK0535",
       "name": "QFII重仓",
-      "change": 0.81,
-      "mainNetIn": 5345127168,
-      "mainNetInRatio": 3.84
+      "change": 0.42,
+      "mainNetIn": 5186243328,
+      "mainNetInRatio": 2.54
+    },
+    {
+      "code": "BK0963",
+      "name": "商业航天",
+      "change": 1.72,
+      "mainNetIn": 5052792576,
+      "mainNetInRatio": 3.66
+    },
+    {
+      "code": "BK1128",
+      "name": "CPO概念",
+      "change": 1.61,
+      "mainNetIn": 4893111552,
+      "mainNetInRatio": 3.29
     },
     {
       "code": "BK1665",
       "name": "大盘成长",
-      "change": 1.06,
-      "mainNetIn": 5253524224,
-      "mainNetInRatio": 2.83
+      "change": 0.52,
+      "mainNetIn": 4631543040,
+      "mainNetInRatio": 1.71
+    },
+    {
+      "code": "BK0821",
+      "name": "MSCI中国",
+      "change": -0.11,
+      "mainNetIn": 4563972096,
+      "mainNetInRatio": 0.71
+    },
+    {
+      "code": "BK1633",
+      "name": "昨日高振幅",
+      "change": 1.16,
+      "mainNetIn": 4561249536,
+      "mainNetInRatio": 1.92
+    },
+    {
+      "code": "BK1134",
+      "name": "算力概念",
+      "change": 0.2,
+      "mainNetIn": 4501367552,
+      "mainNetInRatio": 2.88
+    },
+    {
+      "code": "BK1749",
+      "name": "2026中报预增",
+      "change": 0.23,
+      "mainNetIn": 4382134272,
+      "mainNetInRatio": 1.25
+    },
+    {
+      "code": "BK0612",
+      "name": "上证180_",
+      "change": 0.08,
+      "mainNetIn": 4216166912,
+      "mainNetInRatio": 2.06
     }
   ],
   "stockInTop": [
     {
-      "code": "300750",
-      "name": "宁德时代",
-      "price": 248.42,
-      "change": -2.28,
-      "mainNetIn": -689776400,
-      "mainNetInRatio": -9.17
-    },
-    {
       "code": "300274",
       "name": "阳光电源",
-      "price": 78.5,
-      "change": -4.23,
-      "mainNetIn": -624499408,
-      "mainNetInRatio": -12.98
+      "price": 77.85,
+      "change": -5.03,
+      "mainNetIn": -838895744,
+      "mainNetInRatio": -11.83
     },
     {
-      "code": "688825",
-      "name": "长鑫科技",
-      "price": 40.25,
-      "change": -0.4,
-      "mainNetIn": -403040336,
-      "mainNetInRatio": -6
+      "code": "300750",
+      "name": "宁德时代",
+      "price": 248.64,
+      "change": -2.19,
+      "mainNetIn": -677287664,
+      "mainNetInRatio": -6.21
     },
     {
       "code": "300014",
       "name": "亿纬锂能",
-      "price": 49.18,
-      "change": -5.46,
-      "mainNetIn": -390118560,
-      "mainNetInRatio": -18.28
+      "price": 48.51,
+      "change": -6.75,
+      "mainNetIn": -479964816,
+      "mainNetInRatio": -15.06
     },
     {
       "code": "601599",
       "name": "浙文影业",
-      "price": 5.08,
-      "change": 0,
-      "mainNetIn": -295811232,
-      "mainNetInRatio": -14.72
+      "price": 5.38,
+      "change": 5.91,
+      "mainNetIn": -384879904,
+      "mainNetInRatio": -14.54
     },
     {
       "code": "600261",
       "name": "阳光照明",
-      "price": 5.66,
-      "change": 4.81,
-      "mainNetIn": -293550052,
-      "mainNetInRatio": -22.15
+      "price": 5.32,
+      "change": -1.48,
+      "mainNetIn": -352784031,
+      "mainNetInRatio": -16.73
     },
     {
-      "code": "600327",
-      "name": "大东方",
-      "price": 5.4,
-      "change": 9.98,
-      "mainNetIn": -219584615,
-      "mainNetInRatio": -23.9
+      "code": "688825",
+      "name": "长鑫科技",
+      "price": 39.99,
+      "change": -1.04,
+      "mainNetIn": -345608896,
+      "mainNetInRatio": -3.2
     },
     {
-      "code": "600206",
-      "name": "有研新材",
-      "price": 38.54,
-      "change": 0.65,
-      "mainNetIn": -190289438,
-      "mainNetInRatio": -8.7
+      "code": "300759",
+      "name": "康龙化成",
+      "price": 44.5,
+      "change": -3.03,
+      "mainNetIn": -280058640,
+      "mainNetInRatio": -12.17
+    },
+    {
+      "code": "002929",
+      "name": "润建股份",
+      "price": 59,
+      "change": -6.51,
+      "mainNetIn": -248203344,
+      "mainNetInRatio": -7.98
     },
     {
       "code": "600276",
       "name": "恒瑞医药",
-      "price": 49.56,
-      "change": -1.73,
-      "mainNetIn": -171979847,
-      "mainNetInRatio": -11.24
+      "price": 49.23,
+      "change": -2.38,
+      "mainNetIn": -239482192,
+      "mainNetInRatio": -9.61
     },
     {
-      "code": "000425",
-      "name": "徐工机械",
-      "price": 6.9,
-      "change": -3.77,
-      "mainNetIn": -164880400,
-      "mainNetInRatio": -24.96
+      "code": "300059",
+      "name": "东方财富",
+      "price": 18.78,
+      "change": 0,
+      "mainNetIn": -221147899,
+      "mainNetInRatio": -10.72
     }
   ],
   "stockOutTop": [
     {
       "code": "601138",
       "name": "工业富联",
-      "price": 43.29,
-      "change": 6.34,
-      "mainNetIn": 1232232304,
-      "mainNetInRatio": 22.66
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "price": 462.64,
-      "change": 3.27,
-      "mainNetIn": 988293888,
-      "mainNetInRatio": 5.9
-    },
-    {
-      "code": "300502",
-      "name": "新易盛",
-      "price": 179.15,
-      "change": 4.1,
-      "mainNetIn": 950532576,
-      "mainNetInRatio": 9.21
+      "price": 42.57,
+      "change": 4.57,
+      "mainNetIn": 1242293344,
+      "mainNetInRatio": 17.28
     },
     {
       "code": "688256",
       "name": "寒武纪",
-      "price": 849.01,
-      "change": 5.74,
-      "mainNetIn": 767799520,
-      "mainNetInRatio": 12.26
+      "price": 851.21,
+      "change": 6.02,
+      "mainNetIn": 934730192,
+      "mainNetInRatio": 9
+    },
+    {
+      "code": "300502",
+      "name": "新易盛",
+      "price": 176,
+      "change": 2.27,
+      "mainNetIn": 926404768,
+      "mainNetInRatio": 6.73
+    },
+    {
+      "code": "002639",
+      "name": "雪人集团",
+      "price": 15.95,
+      "change": 10,
+      "mainNetIn": 748067806,
+      "mainNetInRatio": 27.25
+    },
+    {
+      "code": "300308",
+      "name": "中际旭创",
+      "price": 452.03,
+      "change": 0.9,
+      "mainNetIn": 668769792,
+      "mainNetInRatio": 3.08
     },
     {
       "code": "300136",
       "name": "信维通信",
-      "price": 48.76,
-      "change": 15.27,
-      "mainNetIn": 545198016,
-      "mainNetInRatio": 17.84
-    },
-    {
-      "code": "600118",
-      "name": "中国卫星",
-      "price": 60.5,
-      "change": 10,
-      "mainNetIn": 514686354,
-      "mainNetInRatio": 27.38
+      "price": 47.7,
+      "change": 12.77,
+      "mainNetIn": 626476784,
+      "mainNetInRatio": 12.88
     },
     {
       "code": "000823",
       "name": "超声电子",
       "price": 17.86,
       "change": 9.98,
-      "mainNetIn": 504254220,
-      "mainNetInRatio": 35.93
+      "mainNetIn": 567334596,
+      "mainNetInRatio": 37.15
     },
     {
-      "code": "002463",
-      "name": "沪电股份",
-      "price": 78.98,
-      "change": 7.88,
-      "mainNetIn": 476116016,
-      "mainNetInRatio": 10.11
+      "code": "600641",
+      "name": "先导基电",
+      "price": 32.72,
+      "change": 4.2,
+      "mainNetIn": 527872496,
+      "mainNetInRatio": 10.46
     },
     {
-      "code": "002865",
-      "name": "钧达股份",
-      "price": 49.05,
+      "code": "600498",
+      "name": "烽火通信",
+      "price": 28.83,
+      "change": 6.78,
+      "mainNetIn": 466954256,
+      "mainNetInRatio": 16
+    },
+    {
+      "code": "000530",
+      "name": "冰山冷热",
+      "price": 9.57,
       "change": 10,
-      "mainNetIn": 453591077,
-      "mainNetInRatio": 40.56
-    },
-    {
-      "code": "300476",
-      "name": "胜宏科技",
-      "price": 135.56,
-      "change": 9.05,
-      "mainNetIn": 451397568,
-      "mainNetInRatio": 10.49
+      "mainNetIn": 465863722,
+      "mainNetInRatio": 55.7
     }
   ],
-  "summary": "【资金涌入最多板块】\n1. 电子：主力净流入 93.23 亿\n2. 通信设备：主力净流入 43.93 亿\n3. 通信：主力净流入 41.14 亿\n4. 元件：主力净流入 40.67 亿\n5. 印制电路板：主力净流入 38.71 亿"
+  "summary": "【资金涌入最多板块】\n1. 电子：主力净流入 93.39 亿\n2. 元件：主力净流入 38.42 亿\n3. 印制电路板：主力净流入 37.63 亿\n4. 通信设备：主力净流入 37.34 亿\n5. 通信：主力净流入 32.46 亿"
 }
